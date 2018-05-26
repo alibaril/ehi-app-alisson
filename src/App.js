@@ -78,7 +78,7 @@ function DataDisplay(props) {
     <h4>{props.resource.organization.name}</h4>
     {props.resource.organization.address.map(function(address, index) {
       return (
-        <span>
+        <span key={index}>
           <h6>{address.line.map((street, i) => <span key={i}> {street} </span>)}</h6>
           <h6>{address.postalCode}</h6>
           <h6>{address.city}</h6>
