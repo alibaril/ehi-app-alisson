@@ -1,3 +1,11 @@
+### To Add
+
+Potential list of things to add after:
+- A text entry so users can search other practitioners (either by name or id)
+- Input sanitization to allow safe search (once text entry is added)
+- Map services to display organization on map
+- API.js file so all queries can live in one file instead of app.js
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -37,10 +45,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](#deployment) for more information.
 
-### To Add
-
-Potential list of things to add after:
-- A text entry so users can search other practitioners (either by name or id)
-- Input sanitization to allow safe search (once text entry is added)
-- Map services to display organization on map
-- API.js file so all queries can live in one file instead of app.js
